@@ -1,0 +1,29 @@
+.flex-client-logos {
+    padding: var(--margin-site) 0;
+}
+.flex-client-logos > div {
+    z-index: 5;
+}
+.flex-client-logos h2 {
+    font-size: 20px;
+}
+* + .flex-client-logos-img-container {
+    margin-top: var(--flex-section-padding);
+}
+.flex-client-logos-img-container img {
+    filter: grayscale(100%) opacity(80%);
+    height: 100px !important;
+    margin: 0 10px;
+    padding: 30px;
+    transition: filter 1s;
+    width: auto !important;
+}
+.flex-client-logos-img-container img:hover {
+    filter: grayscale(0) opacity(80%);
+}
+.mode-dark .flex-client-logos {
+    color: #fff !important;
+}
+.mode-dark .flex-client-logos-img-container img {
+    filter: greyscale(0) opacity(100%) !important;
+}

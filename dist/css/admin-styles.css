@@ -1,0 +1,11 @@
+[data-layout="ew_daev_flex_text_image"] [data-name="ew_daev_flex_media_oembed"], [data-layout="ew_daev_flex_text_image"] [data-name="ew_daev_flex_txt_img_video"] {
+  float: right !important;
+}
+[data-name="ew_daev_flex_txt_img_video"], [data-name="ew_daev_flex_txt_img_img"] {
+  min-height: auto !important;
+}
+
+/* FLEX: MEDIA - WYSIWYG*/
+[data-layout="ew_daev_flex_media_text"] [data-name="ew_daev_flex_txt_img_txt"] {
+  float: right !important;
+}

@@ -1,0 +1,7 @@
+.flex-media > * {
+    width: 100% !important;
+}
+
+.flex-media > img + video {
+    margin-top: var(--margin-site);
+}

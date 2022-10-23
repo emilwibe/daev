@@ -1,0 +1,79 @@
+// HERO
+.flex-hero {
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.flex-hero .overlay {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.flex-hero img, .flex-hero video {
+  background-position: center top;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.flex-hero.overlay-auto.section-bg .overlay,
+.flex-hero.overlay-bright.section-bg .overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.mode-dark .flex-hero.overlay-auto.section-bg .overlay,
+.flex-hero.overlay-dark.section-bg .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+  padding: var(--flex-hero-content-padding);
+  position: relative;
+  z-index: 5;
+}
+.hero-content h2 {
+  font-size: var(--flex-hero-h2-size);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+.hero-content h3 {
+  font-family: sans-serif;
+  font-size: var(--flex-hero-h3-size);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 32px;
+}
+.hero-wysiwyg {
+  margin-top: 16px;
+}
+.hero-wysiwyg * {
+  font-size: 20px;
+}
+.hero-wysiwyg > *:last-child {
+  margin-bottom: 0;
+}
+.hero-btn-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+  position: relative;
+  z-index: 5;
+}
+.btn.hero-btn {
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.btn.hero-btn a {
+  text-decoration: none;
+}
