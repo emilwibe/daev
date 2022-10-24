@@ -98,3 +98,8 @@
 .logo-center-nav .nav-container {
   margin-top: calc( var(--margin-site) / 2 );
 }
+
+/* MEDIA */
+main img {
+  border-radius: var(--media-border-radius);
+}
