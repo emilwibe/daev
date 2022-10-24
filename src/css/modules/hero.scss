@@ -6,10 +6,10 @@
 }
 .flex-hero .overlay {
   height: 100%;
-  left: calc( var(--margin-site) / 2 );
+  left: 0;
   position: absolute;
   top: 0;
-  width: calc(100% - var(--margin-site));
+  width: 100%;
   z-index: 3;
 }
 .flex-hero img, .flex-hero video {
@@ -23,12 +23,15 @@
   width: 100%;
   z-index: 2;
 }
-.flex-hero.overlay-auto.section-bg .overlay,
-.flex-hero.overlay-bright.section-bg .overlay {
+.flex-herp .section-bg {
+  position: relative;
+}
+.flex-hero.overlay-auto .section-bg .overlay,
+.flex-hero.overlay-bright .section-bg .overlay {
   background-color: rgba(255, 255, 255, 0.5);
 }
-.mode-dark .flex-hero.overlay-auto.section-bg .overlay,
-.flex-hero.overlay-dark.section-bg .overlay {
+.mode-dark .flex-hero.overlay-auto .section-bg .overlay,
+.flex-hero.overlay-dark .section-bg .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .hero-content {
