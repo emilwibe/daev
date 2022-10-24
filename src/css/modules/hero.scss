@@ -78,7 +78,7 @@
   z-index: 5;
 }
 .btn.hero-btn {
-  border-radius: 50px;
+  border-radius: var(--btn-radius);
   font-size: 16px;
   font-weight: bold;
   margin-left: 5px;
