@@ -18,7 +18,8 @@ function ew_daev_custom_fonts_script()
     $ew_daev_kirki_font_settings = [
         'ew_daev_primary_nav_typography',
         'ew_daev_nav_mobile_typography',
-        'ew_daev_general_types'
+        'ew_daev_general_types',
+        'ew_daev_heading_types'
     ];
 
     /**
