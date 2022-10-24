@@ -15,6 +15,12 @@
 .flex-media-txt .wysiwyg {
     grid-row: 4 / 5;
 }
+.flex-media-txt .wysiwyg > div > *:first-child {
+    margin-top: 0;
+}
+.flex-media-txt .wysiwyg > div > *:last-child {
+    margin-bottom: 0;
+}
 @media screen and (min-width: 680px) {
     .flex-media-txt.l-50-50 {
         grid-template-columns: repeat(2, 1fr);
@@ -47,12 +53,6 @@
     }
     .flex-media-txt .wysiwyg > div {
         width: 100%;
-    }
-    .flex-media-txt .wysiwyg > div > *:first-child {
-        margin-top: 0;
-    }
-    .flex-media-txt .wysiwyg > div > *:last-child {
-        margin-bottom: 0;
     }
 }
 .flex-media-txt img {
