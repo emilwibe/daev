@@ -71,10 +71,10 @@
 .mode-toggle-container > li:last-child {
   margin-right: 40px;
 }
-.mode-toggle-dark {
+.mode-toggle-dark .mode-toggle-dark {
   background-image: url(../../assets/sun-moon.svg);
 }
-.mode-dark .mode-toggle-dark {
+.mode-dark  {
   background-color: #000;
   background-image: url(../../assets/sun-moon-dark.svg);
 }
