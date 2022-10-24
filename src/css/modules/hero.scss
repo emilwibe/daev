@@ -9,7 +9,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: calc(100% - var(--margin-site));
   z-index: 3;
 }
 .flex-hero img, .flex-hero video {
