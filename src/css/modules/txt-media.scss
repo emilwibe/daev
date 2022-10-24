@@ -14,12 +14,6 @@
 .flex-txt-media .wysiwyg {
     grid-row: 4 / 5;
 }
-.flex-txt-media .wysiwyg > div > *:first-child {
-    margin-top: 0;
-}
-.flex-txt-media .wysiwyg > div > *:last-child {
-    margin-bottom: 0;
-}
 @media screen and (min-width: 680px) {
     .flex-txt-media {
         gap: var(--margin-site);
