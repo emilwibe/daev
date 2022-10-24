@@ -1,4 +1,5 @@
 <?php
+
 /**
  * For adding custom fonts to Kirki
  */
@@ -17,6 +18,7 @@ function ew_daev_custom_fonts_script()
     $ew_daev_kirki_font_settings = [
         'ew_daev_primary_nav_typography',
         'ew_daev_nav_mobile_typography',
+        'ew_daev_general_types'
     ];
 
     /**
@@ -32,7 +34,7 @@ function ew_daev_custom_fonts_script()
         ],
         [
             'FranklinGothic',
-            'FranklinGothicBT-ExtraCondensed',
+            'FranklinGothic',
             'FranklinGothic',
         ]
     ];
@@ -42,28 +44,27 @@ function ew_daev_custom_fonts_script()
     foreach ($ew_daev_kirki_font_settings as $font_setting) {
         $setting = get_theme_mod($font_setting);
 
+        var_dump($setting);
+
         foreach ($ew_daev_custom_fonts as $custom_font) {
 
-            if (is_array($custom_font[1]) && $custom_font[1] == $setting["font-family"]) {
+                if (isset($custom_font[1]) && isset($setting["font-family"]) && $custom_font[1] == $setting["font-family"]) {
 
-                if( !in_array( $custom_font[1], $ew_deav_active_custom_fonts ) ) {
+                    if (!in_array($custom_font[1], $ew_deav_active_custom_fonts)) {
 
-                    array_push( $ew_deav_active_custom_fonts, $custom_font[1] );
-
+                        array_push($ew_deav_active_custom_fonts, $custom_font[1]);
+                    }
                 }
-
-            }
-        }
-
-    }
-
-    if ( !empty( $ew_deav_active_custom_fonts ) ) {
-
-        for ( $i = 0; $i < count($ew_deav_active_custom_fonts); $i++ ) {
-
-            get_template_part( 'customizer/custom-fonts/' . $ew_deav_active_custom_fonts[$i] );
-
         }
     }
+    
+    var_dump($ew_deav_active_custom_fonts);
 
+    if (!empty($ew_deav_active_custom_fonts)) {
+
+        for ($i = 0; $i < count($ew_deav_active_custom_fonts); $i++) {
+
+            get_template_part('customizer/custom-fonts/' . $ew_deav_active_custom_fonts[$i]);
+        }
+    }
 }
