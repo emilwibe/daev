@@ -49,6 +49,15 @@
   line-height: 1.5;
   margin-top: 32px;
 }
+.hero-content.txt-left h2, .hero-content.txt-left h3 {
+  text-align: left;
+}
+.hero-content.txt-center h2, .hero-content.txt-center h3 {
+  text-align: center;
+}
+.hero-content.txt-right h2, .hero-content.txt-right h3 {
+  text-align: right;
+}
 .hero-wysiwyg {
   margin-top: 16px;
 }

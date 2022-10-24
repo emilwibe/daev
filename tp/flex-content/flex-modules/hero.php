@@ -8,7 +8,7 @@
 
     <?php print_video_single( 'ew_daev_flex_section_background_video', true ); ?>
     
-    <div class="hero-content l-wrapper <?php the_sub_field('daev_settings_align_horizontal_pos'); ?>  <?php the_sub_field( 'ew_daev_flex_section_content_width' ); ?>  <?php the_sub_field( 'daev_settings_align_text' ); ?>">
+    <div class="hero-content l-wrapper <?php the_sub_field('daev_settings_align_horizontal_pos'); ?> <?php the_sub_field( 'ew_daev_flex_section_content_width' ); ?>  <?php the_sub_field( 'daev_settings_align_text' ); ?>">
 
         <?php ew_help_field('ew_daev_flex_hero_heading', true, '<h2>', '</h2>'); ?>
 
