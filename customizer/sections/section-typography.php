@@ -36,7 +36,8 @@ new \Kirki\Field\Typography(
 					'custom'	=> [
 						'text'		=> 'Custom Fonts',
 						'children'	=> [
-							['id'	=> 'inter', 'text' => 'Inter']
+							['id'	=> 'inter', 'text' => 'Inter'],
+							['id' => 'FranklinGothic', 'text' => 'FranklinGothic'],
 						]
 					]
 				],
@@ -72,7 +73,8 @@ new \Kirki\Field\Typography(
 					'custom'	=> [
 						'text'		=> 'Custom Fonts',
 						'children'	=> [
-							['id'	=> 'inter', 'text' => 'Inter']
+							['id' => 'inter', 'text' => 'Inter'],
+							['id' => 'FranklinGothic', 'text' => 'FranklinGothic'],
 						]
 					]
 				],
