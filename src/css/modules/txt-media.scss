@@ -1,7 +1,6 @@
 .flex-txt-media {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    gap: var(--margin-site);
 }
 .flex-txt-media .media:nth-child(1) {
     grid-row: 1 / 2;
@@ -22,7 +21,9 @@
     margin-bottom: 0;
 }
 @media screen and (min-width: 680px) {
-    .flex-txt-media.l-50-50 {
+    .flex-txt-media {
+        gap: var(--margin-site);
+    }
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
     }
