@@ -47,14 +47,14 @@
   }
 }
 .mode-toggle {
-  background-color: #ececec;
+  background-color: #000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 72%;
   border-radius: 50%;
-  height: 32px;
+  height: 20px;
   margin-right: 10px;
-  width: 32px;
+  width: 20px;
 }
 .mode-toggle:hover {
   cursor: pointer;
@@ -71,12 +71,12 @@
 .mode-toggle-container > li:last-child {
   margin-right: 40px;
 }
-.mode-toggle-dark .mode-toggle-dark {
-  background-image: url(../../assets/sun-moon.svg);
-}
-.mode-dark  {
-  background-color: #000;
+.mode-toggle-dark {
   background-image: url(../../assets/sun-moon-dark.svg);
+}
+.mode-dark .mode-toggle-dark {
+  background-color: #fff;
+  background-image: url(../../assets/sun-moon.svg);
 }
 .mode-80s .mode-toggle-dark {
   background-image: url(../../assets/sun-moon-80s.svg);
