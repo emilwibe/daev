@@ -100,6 +100,6 @@
 }
 
 /* MEDIA */
-main img {
+main img, .flex-hero img, .flex-hero video, .flex-hero .overlay {
   border-radius: var(--media-border-radius);
 }
