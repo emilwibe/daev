@@ -2,8 +2,7 @@
 new \Kirki\Section(
 	'ew_daev_typo_section',
 	[
-		'title'       => __( 'Typografi', 'ew_daev' ),
-		//'description' => __( 'Indstillinger for bredder på website', 'ew_deav' ),
+		'title'       => __('Typografi', 'ew_daev'),
 		'panel'       => 'ew_daev_general_panel',
 		'priority'    => 5,
 	]
@@ -13,7 +12,6 @@ new \Kirki\Field\Typography(
 	[
 		'settings'    => 'ew_daev_general_types',
 		'label'       => __('Tekst', 'ew_daev'),
-		//'description' => esc_html__( 'The full set of options.', 'kirki' ),
 		'section'     => 'ew_daev_typo_section',
 		'priority'    => 10,
 		'transport'   => 'auto',
@@ -21,7 +19,7 @@ new \Kirki\Field\Typography(
 			'font-family'     => '',
 			'variant'         => 'regular',
 			'font-size'       => '14px',
-            'line-height'       => '1.5',
+			'line-height'       => '1.5',
 			'letter-spacing'  => '0',
 			'text-transform'  => 'none',
 			'text-decoration' => 'none',
@@ -34,11 +32,11 @@ new \Kirki\Field\Typography(
 		'choices' => [
 			'fonts' => [
 				'google'	=> ['popularity', 50],
-				'families'	=>[
+				'families'	=> [
 					'custom'	=> [
 						'text'		=> 'Custom Fonts',
 						'children'	=> [
-							[ 'id'	=> 'inter', 'text' => 'Inter']
+							['id'	=> 'inter', 'text' => 'Inter']
 						]
 					]
 				],
@@ -51,14 +49,13 @@ new \Kirki\Field\Typography(
 	[
 		'settings'    => 'ew_daev_heading_types',
 		'label'       => __('Overskrifter', 'ew_daev'),
-		//'description' => esc_html__( 'The full set of options.', 'kirki' ),
 		'section'     => 'ew_daev_typo_section',
 		'priority'    => 10,
 		'transport'   => 'auto',
 		'default'     => [
 			'font-family'     => '',
 			'variant'         => 'regular',
-            'line-height'       => '1.5',
+			'line-height'       => '1.5',
 			'letter-spacing'  => '0',
 			'text-transform'  => 'none',
 			'text-decoration' => 'none',
@@ -71,11 +68,11 @@ new \Kirki\Field\Typography(
 		'choices' => [
 			'fonts' => [
 				'google'	=> ['popularity', 50],
-				'families'	=>[
+				'families'	=> [
 					'custom'	=> [
 						'text'		=> 'Custom Fonts',
 						'children'	=> [
-							[ 'id'	=> 'inter', 'text' => 'Inter']
+							['id'	=> 'inter', 'text' => 'Inter']
 						]
 					]
 				],

@@ -4,7 +4,6 @@ new \Kirki\Section(
 	[
 		'title'       => __('Primær Navigation', 'ew_daev'),
 		'description' => __('Indstillinger for navigation', 'ew_deav'),
-		//'panel'       => 'ew_daev_general_panel',
 		'priority'    => 40,
 	]
 );
@@ -13,7 +12,6 @@ new \Kirki\Field\Typography(
 	[
 		'settings'    => 'ew_daev_primary_nav_typography',
 		'label'       => __('Typografi', 'ew_daev'),
-		//'description' => esc_html__( 'The full set of options.', 'kirki' ),
 		'section'     => 'ew_daev_primary_nav_section',
 		'priority'    => 10,
 		'transport'   => 'auto',

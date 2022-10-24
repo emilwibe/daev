@@ -29,6 +29,11 @@ function ew_daev_custom_fonts_script()
             'Inter',
             'inter',
             'Inter, sans-serif',
+        ],
+        [
+            'FranklinGothic',
+            'FranklinGothicBT-ExtraCondensed',
+            'FranklinGothic',
         ]
     ];
 
