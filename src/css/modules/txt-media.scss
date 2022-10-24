@@ -24,6 +24,7 @@
     .flex-txt-media {
         gap: var(--margin-site);
     }
+    .flex-txt-media.l-50-50 {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
     }
