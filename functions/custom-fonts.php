@@ -44,8 +44,6 @@ function ew_daev_custom_fonts_script()
     foreach ($ew_daev_kirki_font_settings as $font_setting) {
         $setting = get_theme_mod($font_setting);
 
-        var_dump($setting);
-
         foreach ($ew_daev_custom_fonts as $custom_font) {
 
                 if (isset($custom_font[1]) && isset($setting["font-family"]) && $custom_font[1] == $setting["font-family"]) {
@@ -57,8 +55,6 @@ function ew_daev_custom_fonts_script()
                 }
         }
     }
-    
-    var_dump($ew_deav_active_custom_fonts);
 
     if (!empty($ew_deav_active_custom_fonts)) {
 
