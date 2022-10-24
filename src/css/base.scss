@@ -13,10 +13,10 @@
   --color-background-header: #fff;
 
   /* NAV PRIMARY */
-  --color-nav-primary-item: #000;
+  --color-nav-primary-item: #111;
   --color-background-nav-primary-mobile: #fff;
   --color-background-nav-toggle: transparent;
-  --color-nav-toggle-lines: #000;
+  --color-nav-toggle-lines: #111;
   --size-square-nav-toggle: 40px;
 
   /* FLEXIBLE CONTENT */
@@ -40,7 +40,7 @@
 :root .mode-dark {
   /* GLOBAL */
   --color: #fff;
-  --color-background: #222;
+  --color-background: #111;
 
   /* HEADER */
   --color-background-header: var(--color-background);
