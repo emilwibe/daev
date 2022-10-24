@@ -44,7 +44,7 @@ function ew_daev_custom_fonts_script()
 
         foreach ($ew_daev_custom_fonts as $custom_font) {
 
-            if ($custom_font[1] == $setting["font-family"]) {
+            if (is_array($custom_font[1]) && $custom_font[1] == $setting["font-family"]) {
 
                 if( !in_array( $custom_font[1], $ew_deav_active_custom_fonts ) ) {
 
