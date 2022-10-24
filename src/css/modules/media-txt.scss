@@ -48,6 +48,12 @@
     .flex-media-txt .wysiwyg > div {
         width: 100%;
     }
+    .flex-media-txt .wysiwyg > div > *:first-child {
+        margin-top: 0;
+    }
+    .flex-media-txt .wysiwyg > div > *:last-child {
+        margin-bottom: 0;
+    }
 }
 .flex-media-txt img {
     display: block;

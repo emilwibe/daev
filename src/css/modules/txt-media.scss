@@ -46,6 +46,12 @@
     .flex-txt-media .wysiwyg > div {
         width: 100%;
     }
+    .flex-txt-media .wysiwyg > div > *:first-child {
+        margin-top: 0;
+    }
+    .flex-txt-media .wysiwyg > div > *:last-child {
+        margin-bottom: 0;
+    }
 }
 .flex-txt-media img {
     display: block;
