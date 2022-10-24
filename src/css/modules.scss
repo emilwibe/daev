@@ -19,6 +19,10 @@
   color: var(--color-nav-primary-item);
   line-height: 32px;
 }
+.nav.primary .nav-btn a {
+  background-color: var(--color);
+  color: var(--color-background);
+}
 .mode-80s .nav.primary a {
   -webkit-background-clip: text;
 }
